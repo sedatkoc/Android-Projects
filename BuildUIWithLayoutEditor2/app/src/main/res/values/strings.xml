@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Build UI With Layout Editor 2</string>
+    <string name="LinearLayout">LinearLayout</string>
+    <string name="LinearLayout2">LinearLayout2</string>
+    <string name="imgEmpl1">Employee Image</string>
+    <string name="Firstname">Firstname</string>
+    <string name="Lastname">Lastname</string>
+    <string name="Jobtitle">Jobtitle</string>
+    <string name="basic_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+
+</resources>

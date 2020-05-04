@@ -1,0 +1,7 @@
+Exercise 03 outcomes
+notes from what I learnt;
+Activities and User Interface
+Using multiple Linear Layouts in UI
+Building a responsive UI with ConstrainLayout
+Using Kotlin code and UI together in a project
+
