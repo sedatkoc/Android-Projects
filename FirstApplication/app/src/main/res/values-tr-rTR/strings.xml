@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ilk Uygulama</string>
+    <string name="button_text">Bana Tikla</string>
+    <string name="clicked_text">Button Tiklandi</string>
+    <string name="hello_text">Merhaba Dunya</string>
+</resources>

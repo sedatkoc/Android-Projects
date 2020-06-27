@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Launch Map</string>
+    <string name="lbl_heading">Give a location (lat and lng):</string>
+    <string name="button_text">SHOW A MAP</string>
+    <string name="text_lat">Enter latitude</string>
+    <string name="text_Long">Enter longitude</string>
+</resources>

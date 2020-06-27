@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherAppWidget</string>
+
+    <string name="city_text">City</string>
+    <string name="condition_text">Condition</string>
+    <string name="temp_text">Temperature</string>
+    <string name="time_text">Time</string>
+    <string name="image_text">Image</string>
+</resources>

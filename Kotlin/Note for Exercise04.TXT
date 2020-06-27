@@ -1,0 +1,4 @@
+I was confused about question when it asks to make mutablelist.
+Should I make the list inside the class or function?
+
+Best Regards

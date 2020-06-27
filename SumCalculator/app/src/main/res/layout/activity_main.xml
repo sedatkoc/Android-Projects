@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/numpad1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true">
+
+    <Button android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number7"
+        android:text="@string/_7"
+        android:onClick="numberInput"/>
+
+    <Button android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number8"
+        android:text="@string/_8"
+        android:onClick="numberInput"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number9"
+        android:text="@string/_9"
+        android:onClick="numberInput"/>
+
+    <Button
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/sinbutton"
+        android:text="@string/_sin"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/numpad2"
+        android:layout_below="@id/numpad1">
+
+    <Button android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number4"
+        android:text="@string/_4"
+        android:onClick="numberInput"/>
+
+    <Button android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number5"
+        android:text="@string/_5"
+        android:onClick="numberInput"/>
+
+    <Button android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number6"
+        android:text="@string/_6"
+        android:onClick="numberInput"/>
+
+    <Button android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/cosbutton"
+        android:text="@string/_cos"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/numpad3"
+        android:layout_below="@id/numpad2">
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number1"
+        android:text="@string/_1"
+        android:onClick="numberInput"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number2"
+        android:text="@string/_2"
+        android:onClick="numberInput"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number3"
+        android:text="@string/_3"
+        android:onClick="numberInput"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/tanbutton"
+        android:text="@string/_tan"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/numpad4"
+        android:layout_below="@id/numpad3">
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/dotbutton"
+        android:text="@string/comma"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/number0"
+        android:text="@string/_0"
+        android:onClick="numberInput"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/equalsbutton"
+        android:text="@string/equal"
+        android:onClick="onEqual"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/clearbutton"
+        android:text="@string/clearAll"
+        android:onClick="onClear"/>
+
+</LinearLayout>
+    <TextView android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/txtOutput"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#80ff0000"
+        android:textSize="40dp"
+        android:layout_above="@+id/signpad"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/typer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/txtOutput"
+        android:layout_alignParentTop="true"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/signpad"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/numpad1">
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:id="@+id/btn_plus"
+        android:text="@string/plus"
+        android:layout_weight="1"
+        android:onClick="onOperator"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:id="@+id/btn_minus"
+        android:text="@string/minus"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:id="@+id/btn_multi"
+        android:text="@string/multi"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="0dp"
+        android:id="@+id/btn_div"
+        android:text="@string/divide"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+</RelativeLayout>
